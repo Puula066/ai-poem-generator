@@ -10,7 +10,7 @@ function displayPoem(response) {
 function generatePoem(event) {
   event.preventDefault();
 
-  let instructionsInput = document.querySelector("#user-instructioins");
+  let instructionsInput = document.querySelector("#user-instructions");
   let apiKey = "d6ad63cf3f10b394t922ccb401aocfc5";
   let prompt = `Generate a poem about spirituality ${instructionsInput.value}`;
   let context =
